@@ -32,10 +32,11 @@ return [
     'connections' => [
 
         'mongodb' => [
-        'driver' => 'mongodb',
-        'dsn' => env('MONGODB_URI', 'mongodb://localhost:27017'),
-        'database' => env('MONGODB_DATABASE', 'instagram-clone'),
+            'driver' => 'mongodb',
+            'dsn' => env('MONGODB_URI', 'mongodb://localhost:27017'),
+            'database' => env('MONGODB_DATABASE', 'instagram-clone'),
         ],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DB_URL'),

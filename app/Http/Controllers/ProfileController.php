@@ -24,7 +24,8 @@ class ProfileController extends Controller
         abort(403, "Unauthorized action.");
       }
 
-      return view('posts.edit',compact('user'));
+
+      return view('profiles.edit',compact('user'));
     }
 
 
